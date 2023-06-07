@@ -1,0 +1,4 @@
+.gnupg/
+.gradle/
+.idea/
+build/
