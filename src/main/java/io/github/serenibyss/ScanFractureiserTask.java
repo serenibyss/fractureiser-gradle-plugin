@@ -1,6 +1,6 @@
-package com.serenibyss;
+package io.github.serenibyss;
 
-import com.serenibyss.nekodetector.Detector;
+import io.github.serenibyss.nekodetector.Detector;
 import org.gradle.api.DefaultTask;
 import org.gradle.api.Project;
 import org.gradle.api.logging.Logger;

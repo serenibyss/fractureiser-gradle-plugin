@@ -5,22 +5,22 @@ plugins {
     id 'com.gradle.plugin-publish' version '1.2.0'
 }
 
+group = 'io.github.serenibyss'
+version = '1.0.1'
+
 gradlePlugin {
     website.set('https://github.com/serenibyss/fractureiser-gradle-plugin')
     vcsUrl.set('https://github.com/serenibyss/fractureiser-gradle-plugin')
     plugins {
         create('fractureiserScannerPlugin') {
-            id = 'com.serenibyss.fractureiser-scanner'
-            implementationClass = 'com.serenibyss.FractureiserPlugin'
+            id = "${group}.fractureiser-scanner"
+            implementationClass = "${group}.FractureiserPlugin"
             displayName = 'Fractureiser Detector Plugin'
             description = 'Gradle plugin for Modded Minecraft development environments to automatically scan and detect for Fractureiser malware exploits in dependencies'
             tags.addAll('minecraft modding', 'verification', 'anti-malware')
         }
     }
 }
-
-group = 'com.serenibyss'
-version = '1.0.0'
 
 repositories {
     mavenCentral()

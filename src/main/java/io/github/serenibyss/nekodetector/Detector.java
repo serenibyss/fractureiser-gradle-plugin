@@ -1,4 +1,4 @@
-package com.serenibyss.nekodetector;
+package io.github.serenibyss.nekodetector;
 
 import org.gradle.api.logging.Logger;
 import org.objectweb.asm.ClassReader;

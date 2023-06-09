@@ -1,4 +1,4 @@
-# Fractureiser Scanner Plugin
+# Fractureiser Detector Plugin
 
 A Gradle Plugin to detect Fractureiser malware in project dependencies.
 
@@ -13,7 +13,7 @@ In `build.gradle`:
 ```groovy
 plugins {
     // ...
-    id 'com.serenibyss.fractureiser-scanner' version '<version of your choosing>'
+    id 'io.github.serenibyss.fractureiser-scanner' version '<version of your choosing>'
 }
 ```
 
