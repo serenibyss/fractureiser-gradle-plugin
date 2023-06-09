@@ -6,8 +6,8 @@ plugins {
 }
 
 gradlePlugin {
-    website.set('https://github.com/DStrand1/fractureiser-gradle-plugin')
-    vcsUrl.set('https://github.com/DStrand1/fractureiser-gradle-plugin')
+    website.set('https://github.com/serenibyss/fractureiser-gradle-plugin')
+    vcsUrl.set('https://github.com/serenibyss/fractureiser-gradle-plugin')
     plugins {
         create('fractureiserScannerPlugin') {
             id = 'com.serenibyss.fractureiser-scanner'
